@@ -1,6 +1,6 @@
 # Modern Web Application using MEAN stack
 
-This is a basic boilerplate for the MEAN stack ([MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](https://angularjs.org/) and [Node.js](https://nodejs.org))
+This is a basic boilerplate for the MEAN stack ([MongoDB](https://www.mongodb.org/), [Express](http://expressjs.com/), [Angular](https://angular.io/) and [Node.js](https://nodejs.org))
 
 Website deployed URL = [App](https://jiwdsbropd.herokuapp.com/)
 
@@ -8,7 +8,6 @@ Website deployed URL = [App](https://jiwdsbropd.herokuapp.com/)
 - MVC project structure
 - Create user accounts
 - Authentication with username/password
-- Protected routes that can only be accessed by authenticated users
 - [Angular Material framework](https://material.angular.io/) for UI
 - [Mongoose](https://mongoosejs.com/docs/index.html) for MongoDB interactions.
 
