@@ -7,7 +7,7 @@ import {Observable} from "rxjs";
 })
 export class Service2Service {
 
-  API_URL = 'https://still-scrubland-02880.herokuapp.com'
+  API_URL = 'https://jiwdsbropd.herokuapp.com'
   // API_URL = 'http://localhost:8080'
 
   constructor(
