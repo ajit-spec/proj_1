@@ -1,0 +1,21 @@
+<div class="container">
+
+  <div class="form-container">
+    <h2>Login</h2>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+      <mat-form-field appearance="outline">
+        <mat-label>Username</mat-label>
+        <input matInput [formControlName]="'username'">
+        <mat-error *ngIf="get_form_control().username.invalid">{{get_error_msg_for_username()}}</mat-error>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Password</mat-label>
+        <input matInput [formControlName]="'password'">
+        <mat-error *ngIf="get_form_control().password.invalid">{{get_error_msg_for_password()}}</mat-error>
+      </mat-form-field>
+      <button type="submit" mat-raised-button color="primary">Login</button>
+    </form>
+    <p class="register-text">Dont have an account? <span [routerLink]="['/', 'register']">Register</span></p>
+  </div>
+
+</div>
